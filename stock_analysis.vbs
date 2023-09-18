@@ -94,12 +94,12 @@ Sub MuSltstkyrdata()
 
             ElseIf ws.Cells(i - 1, 1).Value <> ticker Then
 
-                ' Get opening price for this ticker symbol (assuming it's in column C)
+                ' Get opening price for this ticker symbol 
                 openingPrice = ws.Cells(i, 3).Value
 
             End If
             
-            ' Add volume to total for this ticker symbol (assuming it's in column G)
+            ' Add volume to total for this ticker symbol 
             volume = ws.Cells(i, 7).Value
             totalVolume = totalVolume + volume
 
