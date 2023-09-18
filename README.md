@@ -6,3 +6,5 @@
 #The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year. This should be in percentage format.
 
 #Based upon this information it additionally returns the tickers with the totals of the greatest percentage increase/decrease and greatest volume. 
+
+#Code for this file is in the stock_analysis.vbs file in the Module2Challenge Repo.
